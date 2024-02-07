@@ -16,13 +16,30 @@ h1{
     font-size: 80px;
     border-bottom:1px solid #ccc; ;
 }
+.comoJogar{
+    float: right;
+    text-align: center;
+    margin: 20px 20px;
+    width: 10%;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+.comoJogar:hover{
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
 .container{
     border: 1px solid #ccc;
     overflow: hidden;
     width: 70%;
+    height: 100%;
     display: flex;
     margin: 100px 12%;
-    margin-top: 100px;
+    margin-top: 220px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -50,7 +67,7 @@ text-align: center;
 h3{
     margin-top: -70px;
     position: absolute;
-    font-size:35px ;
+    font-size:50px ;
     color: white;
     animation:  1s opacity infinite  ease-in-out ;
 }
@@ -78,7 +95,6 @@ h3{
 
 
 .center{
-    
     font-size: 18px;
     color: #fff;
     display: flex;

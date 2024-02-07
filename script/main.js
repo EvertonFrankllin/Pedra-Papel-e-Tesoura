@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         if(playerOpt == 'Papel'){
 
             if(inimigoOpt == 'Tesoura'){
-                vencedor.innerHTML = 'Player 1 Perdeu!';
+                vencedor.innerHTML = 'Você Perdeu!';
                 
 
             }else if(inimigoOpt == 'Papel'){
@@ -20,17 +20,17 @@ document.addEventListener('DOMContentLoaded', ()=>{
                 
 
             }else if(inimigoOpt == 'Pedra'){
-                vencedor.innerHTML = 'Player - 1 Ganhou!';
+                vencedor.innerHTML = 'Você Ganhou!';
                 
             }
         }
         if(playerOpt == 'Pedra'){
 
             if(inimigoOpt == 'Tesoura'){
-                vencedor.innerHTML = 'Player 1 Guanhou!';
+                vencedor.innerHTML = 'Você Guanhou!';
 
             }else if(inimigoOpt == 'Papel'){
-                vencedor.innerHTML = 'Player - 1 Perdeu!';
+                vencedor.innerHTML = 'Você Perdeu!';
                 
 
             }else if(inimigoOpt == 'Pedra'){
@@ -44,16 +44,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
                 vencedor.innerHTML = 'Empate!';
 
             }else if(inimigoOpt == 'Papel'){
-                vencedor.innerHTML = 'Player - 1 Ganhou!';
+                vencedor.innerHTML = 'Você Ganhou!';
 
             }else if(inimigoOpt == 'Pedra'){
-                vencedor.innerHTML = 'Player - 1 Perdeu!';
+                vencedor.innerHTML = 'Você Perdeu!';
                                 
             }
         }
     }
-
-
     function resetInimigo(){
         const enemyOption = document.querySelectorAll('.play-2 img');
         for(let i=0; i<enemyOption.length; i++){
@@ -61,7 +59,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
             
       };
     };
-
 
     function inimigoJogou(){
         
@@ -98,7 +95,5 @@ document.addEventListener('DOMContentLoaded', ()=>{
             inimigoJogou();
         });
     };
-
-
 
 });
