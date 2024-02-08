@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
     var playerOpt = '';
     var inimigoOpt = '';
 
-
     function validarvitoria(){
         let vencedor = document.querySelector('.vencedor');
         
